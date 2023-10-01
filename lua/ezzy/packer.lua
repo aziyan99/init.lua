@@ -38,7 +38,8 @@ return require('packer').startup(function(use)
         }
     }
 
-    use "EdenEast/nightfox.nvim" -- Theme
+    -- use "EdenEast/nightfox.nvim" -- Theme
+    use({ 'rose-pine/neovim', as = 'rose-pine' })
 
     use {
         'nvim-treesitter/nvim-treesitter',
